@@ -1,6 +1,6 @@
 # Téléchargement fond d'écran
 $wallpaperUri = "https://github.com/suyaseongi/rubber-ducky-tp/blob/main/wallpaper-1.jpg?raw=true"
-$wallpaperPath = Join-Path %USERPROFILE% "\Pictures\wallpaper-1.jpg"
+$wallpaperPath = Join-Path $env:USERPROFILE "\Pictures\wallpaper-1.jpg"
 Start-BitsTransfer –source $wallpaperUri -destination $wallpaperPath
 
 # Définition fond d'écran
