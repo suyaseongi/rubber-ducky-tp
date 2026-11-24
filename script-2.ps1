@@ -30,4 +30,4 @@ namespace Win32{
 '@
 
 add-type $code 
-[Win32.Wallpaper]::SetWallpaper($wallpaperPath).
+[Win32.Wallpaper]::SetWallpaper($wallpaperPath)
